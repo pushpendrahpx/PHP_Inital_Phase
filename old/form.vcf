@@ -1,0 +1,47 @@
+
+			  					<form method="post" action="uj79hbu3bf3wu9b3wuf9buerwfuaierncuewr4biufnourbhyig4by4b5fu4biufhbiw4uerfhw479e5uiowcd.php">
+			  						<a class="text-success">* All Fields are Mandatory	</a>
+									<div class="row">
+										<div class="col-sm-12 col-lg-6">
+											<div class="form-group">
+												<label>Full Name - </label>
+												<input type="text" class="form-control" name="name" placeholder="Full Name" required="required">
+												<small>*Mandatory</small>
+											</div>
+										</div>
+
+											<div class="col-sm-12 col-lg-6">
+												<div class="form-group">
+													<label>Mobile Number (+91) - </label>
+										<input required="required" type="number" class="form-control" name="phone" placeholder="Mobile Number" minlength="10" maxlength="10" min='5555555555' max="9999999999">
+										<small>10 Digit Mobile Number</small>
+									</div>
+											</div>
+									</div>
+									
+										<div class="row">
+											<div class="col-sm-12 col-lg-6">
+												<div class="form-group">
+													<label>Branch - </label>
+										<select class="form-control" name="department" required="required">
+											<option selected="selected" disabled="disabled" value="-1">Select Your Department</option>
+											<!-- ( -1 ) can be used while Validation of Form -->
+											<option value="Civil">B.Tech Civil Engineering Department</option>
+											<option value="Chemical">B.Tech Chemical Engineering Department</option>
+											<option value="Computer">B.Tech Computer Engineering Department</option>
+											<option value="Electrical">B.Tech Electrical Engineering Department</option>
+											<option value="Electronics">B.Tech Electronics Engineering Department</option>
+											<option value="Mechanical">B.Tech Mechanical Engineering Department</option>
+											<option value="Integrated M.Sc. ( Physics )">Integrated M.Sc. ( Physics )</option>
+											<option value="Integrated M.Sc. ( Chemistry )">Integrated M.Sc. ( Chemistry )</option>
+											<option value="Integrated M.Sc. ( Mathematics )">Integrated M.Sc. ( Mathematics )</option>
+										</select>
+										<small>All Branches are Listed.</small>
+									</div>
+											</div>			
+										</div>
+									<div class="form-group">
+										<center><button class="btn btn-block btn-success">Submit</button></center>
+										<!-- In Some Cases Center tag doesn't work in HTML5 -->
+									</div>
+				</form>
