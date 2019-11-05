@@ -1,2 +1,2 @@
 <?php
-$mysqli = mysqli_connect("localhost","id6805265_svnit","SVNIT","id6805265_svnit_donations");
+$mysqli = mysqli_connect("localhost","_your_database_username","_your_database_password","_your_database_name");
